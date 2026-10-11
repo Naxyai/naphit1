@@ -1,0 +1,101 @@
+Failed to resolve dependency: react, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-dev-runtime, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-runtime, present in 'optimizeDeps.include'
+Port 5173 is in use, trying another one...
+
+  VITE v5.4.8  ready in 1467 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+Error:   Failed to scan for dependencies from entries:
+  C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/index.html
+
+  X [ERROR] EPERM: operation not permitted, realpath 'C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\index.html' [plugin vite:dep-scan]
+
+    <stdin>:1:7:
+      1 │ import "C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project...
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  This error came from the "onResolve" callback registered here:
+
+    node_modules/esbuild/lib/main.js:1150:20:
+      1150 │       let promise = setup({
+           ╵                     ^
+
+    at setup (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49625:13)
+    at handlePlugins (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1150:21)
+    at buildOrContextImpl (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:873:5)
+    at Object.buildOrContext (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:699:5)
+    at C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:2032:68
+    at new Promise (<anonymous>)
+    at Object.context (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:2032:27)
+    at Object.context (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1874:58)
+    at prepareEsbuildScanner (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49511:24)
+
+
+    at failureErrorWithLog (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1472:15)
+    at C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:945:25
+    at runOnEndCallbacks (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1315:45)
+    at buildResponseToResult (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:943:7)
+    at C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:954:54)
+    at handleRequest (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:647:17)
+    at handleIncomingPacket (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:672:7)
+    at Socket.readFromStdout (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:600:7)
+10:42:17 PM [vite] vite.config.ts changed, restarting server...
+Failed to resolve dependency: react, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-runtime, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-dev-runtime, present in 'optimizeDeps.include'
+Failed to resolve dependency: react-dom, present in 'optimizeDeps.include'
+Failed to resolve dependency: react-dom/client, present in 'optimizeDeps.include'
+Failed to resolve dependency: react-router-dom, present in 'optimizeDeps.include'
+Failed to resolve dependency: zustand, present in 'optimizeDeps.include'
+Failed to resolve dependency: @supabase/supabase-js, present in 'optimizeDeps.include'
+Failed to resolve dependency: react, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-dev-runtime, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-runtime, present in 'optimizeDeps.include'
+10:42:17 PM [vite] server restarted.
+10:48:35 PM [vite] vite.config.ts changed, restarting server...
+10:48:35 PM [vite] vite.config.ts changed, restarting server...
+Re-optimizing dependencies because vite config has changed
+Failed to resolve dependency: react, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-dev-runtime, present in 'optimizeDeps.include'
+Failed to resolve dependency: react/jsx-runtime, present in 'optimizeDeps.include'
+10:48:35 PM [vite] server restarted.
+Error:   Failed to scan for dependencies from entries:
+  C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/index.html
+
+  X [ERROR] EPERM: operation not permitted, realpath 'C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\index.html' [plugin vite:dep-scan]
+
+    <stdin>:1:7:
+      1 │ import "C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project...
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  This error came from the "onResolve" callback registered here:
+
+    node_modules/esbuild/lib/main.js:1150:20:
+      1150 │       let promise = setup({
+           ╵                     ^
+
+    at setup (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49625:13)
+    at handlePlugins (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1150:21)
+    at buildOrContextImpl (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:873:5)
+    at Object.buildOrContext (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:699:5)
+    at C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:2032:68
+    at new Promise (<anonymous>)
+    at Object.context (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:2032:27)
+    at Object.context (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1874:58)
+    at prepareEsbuildScanner (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49511:24)
+
+
+    at failureErrorWithLog (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1472:15)
+    at C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:945:25
+    at runOnEndCallbacks (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1315:45)
+    at buildResponseToResult (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:943:7)
+    at C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:954:54)
+    at handleRequest (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:647:17)
+    at handleIncomingPacket (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:672:7)
+    at Socket.readFromStdout (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:600:7)
