@@ -1,0 +1,17 @@
+
+> vite-react-typescript-starter@0.0.0 dev
+> vite --port 5173 --host 127.0.0.1
+
+failed to load config from C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\vite.config.ts
+error when starting dev server:
+Error: spawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:796:9)
+    at ensureServiceIsRunning (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1975:29)
+    at build (C:\Users\WALTON\Downloads\project-bolt-sb1-2tg6deoa\project\node_modules\esbuild\lib\main.js:1873:26)
+    at bundleConfigFile (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:66504:24)
+    at loadConfigFromFile (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:66474:27)
+    at resolveConfig (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:66083:30)
+    at _createServer (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:62701:24)
+    at createServer (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:62698:10)
+    at CAC.<anonymous> (file:///C:/Users/WALTON/Downloads/project-bolt-sb1-2tg6deoa/project/node_modules/vite/dist/node/cli.js:735:26)
